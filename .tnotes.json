@@ -2,8 +2,16 @@
   "author": "Tdahuyou",
   "repoName": "TNotes.vitepress",
   "keywords": ["TNotes.vitepress"],
-  "ignore_dirs": [".vscode", "0000", "assets", "node_modules"],
-  "sidebar_isCollapsed": false,
+  "ignore_dirs": [
+    ".vscode",
+    "0000",
+    "assets",
+    "node_modules",
+    "hidden",
+    "demos",
+    "assets"
+  ],
+  "port": 9412,
   "menuItems": [
     {
       "text": "🏠 Home",
@@ -20,10 +28,6 @@
     {
       "text": "📂 TNotes.assets",
       "link": "https://www.yuque.com/tdahuyou/tnotes.assets"
-    },
-    {
-      "text": "👀 TOC",
-      "link": "/TOC"
     }
   ],
   "socialLinks": [
@@ -42,8 +46,8 @@
       }
     },
     {
-      "ariaLabel": "TNotes.vitepress github 仓库链接",
-      "link": "https://github.com/Tdahuyou/TNotes.vitepress",
+      "ariaLabel": "TNotes.template github 仓库链接",
+      "link": "https://github.com/Tdahuyou/TNotes.template",
       "icon": "github"
     }
   ]
