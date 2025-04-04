@@ -96,3 +96,61 @@ export default defineConfig({
     - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-04-00-34-10.png)
     - 这是在写这篇笔记时 `2025.04.04` 官方文档对 `srcExclude` 配置的全部描述。
     - 因此有了这篇笔记和这个 demo。
+- 除了可以通过 `srcExclude` 配置来忽略某些源文件，也可以通过 vitepress 的 `vite.server.watch.ignored` 配置项来忽略对某些文件的监听；或者手写插件，让那些本该被忽略的文件若被用户刻意修改 URL 访问到，加载之后的内容为空。
+
+::: code-group
+
+```ts {5-25} [config.mts]
+import { defineConfig } from 'vitepress'
+
+// https://vitepress.dev/reference/site-config
+export default defineConfig({
+  srcExclude: ['./api-examples.md', './hidden'],
+  vite: {
+    server: {
+      watch: {
+        // 改动这些内容不会再热更。
+        ignored: ['./api-examples.md', '**/hidden/**'],
+      },
+    },
+    plugins: [
+      {
+        // 处理 srcExclude 仅在生产环境 build 有效的问题，在开发环境 dev 如果通过手动修改地址栏跳转，应该被隐藏的文档依旧会被 vitepress 处理，这个插件可以让请求到的内容为空。
+        name: 'ignore-hidden',
+        enforce: 'pre',
+        load(id) {
+          if (id.includes('api-examples') || id.includes('hidden')) {
+            return ''
+          }
+        },
+      },
+    ],
+  },
+
+  title: 'My Awesome Project',
+  description: 'A VitePress Site',
+  themeConfig: {
+    // https://vitepress.dev/reference/default-theme-config
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Examples', link: '/markdown-examples' },
+    ],
+
+    sidebar: [
+      {
+        text: 'Examples',
+        items: [
+          { text: 'Markdown Examples', link: '/markdown-examples' },
+          // { text: 'Runtime API Examples', link: '/api-examples' },
+        ],
+      },
+    ],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+    ],
+  },
+})
+```
+
+:::
