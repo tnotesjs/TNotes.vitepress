@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: 'TNotes.vitepress'
+  name: 'vitepress notes'
   image:
     src: /logo.png
     alt: TNotes logo
