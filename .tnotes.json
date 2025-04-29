@@ -1,9 +1,7 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.vitepress",
-  "keywords": [
-    "TNotes.vitepress"
-  ],
+  "keywords": ["TNotes.vitepress"],
   "ignore_dirs": [
     ".vscode",
     "0000",
@@ -14,6 +12,7 @@
     "assets"
   ],
   "port": 9412,
+  "rootDocsSrcDir": "../_/docs/src",
   "menuItems": [
     {
       "text": "🏠 Home",
