@@ -1,7 +1,9 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.vitepress",
-  "keywords": ["TNotes.vitepress"],
+  "keywords": [
+    "TNotes.vitepress"
+  ],
   "ignore_dirs": [
     ".vscode",
     "0000",
@@ -50,5 +52,6 @@
       "link": "https://github.com/Tdahuyou/TNotes.template",
       "icon": "github"
     }
-  ]
+  ],
+  "id": "e5ca5ed6-34d0-41e6-a428-6bcf549b444f"
 }
