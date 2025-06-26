@@ -19,9 +19,9 @@
     "icon": {
       "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--vitepress.svg"
     },
-    "title": "VitePress 笔记",
+    "title": "vitepress",
     "completed_notes_count": 1,
-    "details": "SSG 静态站点生成器，TNotes 核心依赖之一。",
+    "details": "VitePress 笔记",
     "link": "https://tdahuyou.github.io/TNotes.vitepress/"
   },
   "menuItems": [
