@@ -1,5 +1,5 @@
 {
-  "author": "Tdahuyou",
+  "author": "tnotesjs",
   "repoName": "TNotes.vitepress",
   "keywords": ["TNotes.vitepress"],
   "ignore_dirs": [
@@ -20,7 +20,7 @@
     "title": "vitepress",
     "completed_notes_count": 1,
     "details": "VitePress 笔记",
-    "link": "https://tdahuyou.github.io/TNotes.vitepress/",
+    "link": "https://tnotesjs.github.io/TNotes.vitepress/",
     "created_at": 1743699452000,
     "updated_at": 1757163553631,
     "days_since_birth": 9412
@@ -36,7 +36,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tdahuyou.github.io/notes"
+      "link": "https://tnotesjs.github.io/notes"
     },
     {
       "text": "📂 TNotes.yuque",
