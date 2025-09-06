@@ -1,4 +1,4 @@
-# [0003. sitemap](https://github.com/Tdahuyou/TNotes.vitepress/tree/main/notes/0003.%20sitemap)
+# [0003. sitemap](https://github.com/tnotesjs/TNotes.vitepress/tree/main/notes/0003.%20sitemap)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0002. srcExclude 配置需要忽略的文档内容](https://github.com/Tdahuyou/TNotes.vitepress/tree/main/notes/0002.%20srcExclude%20%E9%85%8D%E7%BD%AE%E9%9C%80%E8%A6%81%E5%BF%BD%E7%95%A5%E7%9A%84%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9)
+# [0002. srcExclude 配置需要忽略的文档内容](https://github.com/tnotesjs/TNotes.vitepress/tree/main/notes/0002.%20srcExclude%20%E9%85%8D%E7%BD%AE%E9%9C%80%E8%A6%81%E5%BF%BD%E7%95%A5%E7%9A%84%E6%96%87%E6%A1%A3%E5%86%85%E5%AE%B9)
 
 <!-- region:toc -->
 

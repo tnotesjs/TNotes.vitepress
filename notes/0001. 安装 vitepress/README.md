@@ -1,4 +1,4 @@
-# [0001. 安装 vitepress](https://github.com/Tdahuyou/TNotes.vitepress/tree/main/notes/0001.%20%E5%AE%89%E8%A3%85%20vitepress)
+# [0001. 安装 vitepress](https://github.com/tnotesjs/TNotes.vitepress/tree/main/notes/0001.%20%E5%AE%89%E8%A3%85%20vitepress)
 
 <!-- region:toc -->
 
