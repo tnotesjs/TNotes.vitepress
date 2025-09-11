@@ -24,7 +24,7 @@
     "details": "VitePress 笔记",
     "link": "https://tnotesjs.github.io/TNotes.vitepress/",
     "created_at": 1743699452000,
-    "updated_at": 1757172137310,
+    "updated_at": 1757554175559,
     "days_since_birth": 9412
   },
   "menuItems": [
@@ -38,7 +38,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tnotesjs.github.io/notes"
+      "link": "https://tnotesjs.github.io/TNotes"
     },
     {
       "text": "📂 TNotes.yuque",
