@@ -1,7 +1,9 @@
 {
   "author": "tnotesjs",
   "repoName": "TNotes.vitepress",
-  "keywords": ["TNotes.vitepress"],
+  "keywords": [
+    "TNotes.vitepress"
+  ],
   "ignore_dirs": [
     ".vscode",
     "0000",
@@ -22,7 +24,7 @@
     "details": "VitePress 笔记",
     "link": "https://tnotesjs.github.io/TNotes.vitepress/",
     "created_at": 1743699452000,
-    "updated_at": 1757554175559,
+    "updated_at": 1758172046648,
     "days_since_birth": 9412
   },
   "menuItems": [
