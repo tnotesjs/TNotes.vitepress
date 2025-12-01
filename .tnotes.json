@@ -21,9 +21,9 @@
     },
     "title": "vitepress",
     "completed_notes_count": {
-      "25.04": 0,
-      "25.05": 0,
-      "25.06": 0,
+      "25.04": 1,
+      "25.05": 1,
+      "25.06": 1,
       "25.07": 1,
       "25.08": 1,
       "25.09": 1,
@@ -34,7 +34,7 @@
     "details": "VitePress 笔记",
     "link": "https://tnotesjs.github.io/TNotes.vitepress/",
     "created_at": 1743699452000,
-    "updated_at": 1764549258552,
+    "updated_at": 1764578529535,
     "days_since_birth": 9412
   },
   "menuItems": [
