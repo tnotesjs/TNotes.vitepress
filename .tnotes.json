@@ -20,11 +20,21 @@
       "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--vitepress.svg"
     },
     "title": "vitepress",
-    "completed_notes_count": 1,
+    "completed_notes_count": {
+      "25.04": 0,
+      "25.05": 0,
+      "25.06": 0,
+      "25.07": 1,
+      "25.08": 1,
+      "25.09": 1,
+      "25.10": 1,
+      "25.11": 1,
+      "25.12": 1
+    },
     "details": "VitePress 笔记",
     "link": "https://tnotesjs.github.io/TNotes.vitepress/",
     "created_at": 1743699452000,
-    "updated_at": 1762780415379,
+    "updated_at": 1764548515098,
     "days_since_birth": 9412
   },
   "menuItems": [
