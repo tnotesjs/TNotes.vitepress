@@ -1,0 +1,4 @@
+- vitepress 起步
+  - [ ] 0001. 安装 vitepress
+  - [x] 0002. srcExclude 配置需要忽略的文档内容
+  - [ ] 0003. sitemap

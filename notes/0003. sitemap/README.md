@@ -2,11 +2,11 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 References](#1--references)
+- [1. References](#1-references)
 
 <!-- endregion:toc -->
 
-## 1. 🔗 References
+## 1. References
 
 ::: details
 

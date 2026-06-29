@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📒 概述](#1--概述)
-- [2. 💻 demos.1 - 测试 srcExclude 配置](#2--demos1---测试-srcexclude-配置)
+- [1. 概述](#1-概述)
+- [2. demos.1 - 测试 srcExclude 配置](#2-demos1---测试-srcexclude-配置)
 
 <!-- endregion:toc -->
 
-## 1. 📒 概述
+## 1. 概述
 
 - **`srcExclude` 在开发环境下是没啥用的，主要作用体现在生产环境。**
 - Issue #4310: `srcExclude` 配置在开发模式下的行为讨论
@@ -38,7 +38,7 @@
     - **文档改进**：建议在 VitePress 官方文档中明确说明 `srcExclude` 在开发模式和生产模式下的行为差异，帮助用户更好地理解其作用范围。
     - **用户注意事项**：如果用户希望在开发模式下完全阻止某些路径的访问，可以考虑结合其他方式（如自定义路由逻辑或中间件）来实现更严格的限制。
 
-## 2. 💻 demos.1 - 测试 srcExclude 配置
+## 2. demos.1 - 测试 srcExclude 配置
 
 ::: code-group
 
