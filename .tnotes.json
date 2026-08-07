@@ -34,13 +34,12 @@
       "26.03": 1,
       "26.04": 1,
       "26.05": 1,
-      "26.06": 1
+      "26.06": 1,
+      "26.07": 1,
+      "26.08": 1
     },
     "details": "VitePress 笔记",
-    "link": "https://tnotesjs.github.io/TNotes.vitepress/",
-    "created_at": 1743699452000,
-    "updated_at": 1782719082000,
-    "days_since_birth": 9863
+    "link": "https://tnotesjs.github.io/TNotes.vitepress/"
   },
   "menuItems": [
     {
